@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background-color: #000000;
+            background-image: url('image2.jpg');
+            background-position: center;
+            margin-bottom: 20px;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        a:hover {
+            color: rgb(0, 255, 204);
+            scale: 1.05;
+        }
+
+        header {
+            position: relative;
+            padding: 0 2rem;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar .logo a {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .navbar .links {
+            display: flex;
+            gap: 35px;
+        }
+
+        .navbar .toggle_btn {
+            color: #fff;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+        }
+
+        .action_btn {
+            background-color: rgb(0, 167, 134);
+            color: #fff;
+            padding: 0.5em 1rem;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: scale 0.2 ease;
+        }
+
+        .action_btn:hover {
+            scale: 1.05;
+            color: #fff;
+        }
+
+        .action_btn:active {
+            scale: 0.95;
+        }
+
+        .jda {
+            display: flex;
+            transform: translateY(-50%);
+            gap: 5rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+
+        .linkcry {
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            background: #ffffff62;
+            padding: 10px 20px;
+            border-radius: 15px;
+            box-shadow: #000000;
+            font-family: 'poppins', sans-serif;
+            text-decoration: none;
+        }
+
+        .wellcome {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 300px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .wellcome h1 {
+            font-family: 'poppins', sans-serif;
+            font-size: 50px;
+        }
+
+        .wellcome p {
+            font-family: 'poppins', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .logo {
+            color: rgb(0, 255, 229);
+        }
+
+        .wellcome h1:hover {
+            color: #fff;
+            scale: 1.025;
+            transition: scale 0.7 ease;
+            cursor: move;
+
+            .wellcome h1:active {
+                scale: 1.025;
+                transition: scale 0.7 ease;
+
+            }
+        }
+
+        .wellcome p:hover {
+            color: aqua;
+            scale: 1.025;
+            transition: scale 0.7 ease;
+        }
+
+        .ethereum {
+            width: 30px;
+        }
+
+        .k1 {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+
+            margin-top: 100px;
+        }
+
+        .judul1 {
+            font-size: 40px;
+            margin-top: 100px;
+            font-family: 'poppins', sans-serif;
+            margin-bottom: 100px;
+        }
+
+        linkkusus {
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            background: #fff;
+            padding: 10px 20px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: scale 0.2 ease;
+
+        .eth{
+            width: 20px;
+            height: 20px;
+
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background1">
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">Show-cr1pt</a></div>
+                <ul class="links">
+                    <li><a href="Index.html">| Home</a></li>
+                    <li><a href="#">| About</a></li>
+                    <li><a href="https://pintu.co.id/news">| News</a></li>
+                    <li><a href="#">| Profile</a></li>
+                    <li><a href="https://coinmarketcap.com/id/">| Top-100</a></li>
+                    <li><a href="https://indodax.com/">| Indodax</a></li>
+                    <li><a href="https://opensea.io/">| Open Sea</a></li>
+                </ul>
+                <a href="form.html" class="action_btn">Login</a>
+                <div class="toggle_btn">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="wellcome">
+                <h1>WELLCOME TO <span class="logo">SHOW-cr1pt</span></h1>
+                <P>YOUR PLACE TO GET TRUSTED DIGITAL MONEY INFORMATION</P>
+            </div>
+        </article>
+        <article>
+            <div class="jda">
+                <a href="https://indodax.com/market/BTCIDR" class="linkcry"><img src="bitcoin.png" class="eth" style="width: 40px; height: 40px;"></a>
+                <a href="https://indodax.com/market/ETHIDR" class="linkcry"><img src="ethereum.png" class="eth" style="width: 40px; height: 40px;"></a>
+                <a href="https://indodax.com/market/USDTIDR" class="linkcry"><img src="tether.png" class="eth" style="width: 40px; height: 40px;"></a>
+                <a href="https://indodax.com/market/BNBIDR" class="linkcry"><img src="air-bnb.png" class="eth" style="width: 40px; height: 40px;"></a>
+                <a href="https://indodax.com/market/SOLIDR" class="linkcry"><img src="solana.png" class="eth" style="width: 40px; height: 40px;"></a>
+                <a href="https://indodax.com/market/USDCIDR" class="linkcry"><img src="usdc.png" class="eth" style="width: 40px; height: 40px;"></a>
+            </div>
+        </article>
+    </div>
+
+
+</body>
+
+</html>
